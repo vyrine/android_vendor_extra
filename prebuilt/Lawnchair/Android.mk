@@ -18,7 +18,6 @@ include $(CLEAR_VARS)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE := Lawnchair
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_OVERRIDES_PACKAGES := \
 	Home \
 	Launcher2 \
@@ -27,7 +26,6 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Trebuchet \
 	TrebuchetOverlay \
 	TrebuchetQuickStep
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_REQUIRED_MODULES := \
 	privapp-permissions-app.lawnchair.xml \
