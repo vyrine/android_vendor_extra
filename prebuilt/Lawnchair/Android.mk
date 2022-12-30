@@ -18,6 +18,9 @@ include $(CLEAR_VARS)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE := Lawnchair
 LOCAL_MODULE_CLASS := APPS
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+	androidx.window.extensions \
+	androidx.window.sidecar
 LOCAL_OVERRIDES_PACKAGES := \
 	Home \
 	Launcher2 \
