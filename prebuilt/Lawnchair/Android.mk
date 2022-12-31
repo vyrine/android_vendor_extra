@@ -27,7 +27,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Launcher3 \
 	Launcher3QuickStep \
 	Trebuchet \
-	TrebuchetOverlay
+	TrebuchetQuickStep
 LOCAL_PRODUCT_MODULE := true
 LOCAL_REQUIRED_MODULES := \
 	privapp-permissions-app.lawnchair.xml \
