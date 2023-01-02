@@ -12,5 +12,5 @@ LOCAL_PRODUCT_MODULE := true
 LOCAL_REQUIRED_MODULES := \
     libwebviewchromium_loader \
     libwebviewchromium_plat_support
-LOCAL_SRC_FILES := $(LOCAL_MODULE)
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 include $(BUILD_PREBUILT)
